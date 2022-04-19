@@ -1,0 +1,150 @@
+
+
+/* -------CARD--INFO--BLOCK------------ */
+
+.watch-and-info-block {
+/* display:flex; */
+
+/* justify-content:space-around; */
+ /*  background-color:red; */
+}
+.watch-and-info-block .container {
+display:flex;
+justify-content:center;
+}
+.watch-block {
+ /*  width:570px;
+  height:700px; */
+   /*  background-color:red; */
+ /* display:flex; */
+    
+}
+.watch-block-slider-window {
+width:570px;
+ cursor:pointer;   
+}
+.watch-block-slider-window img {
+/* width:100%; */
+/* height:100%;  */
+  /*   background-color:red; */
+}
+.preview-line {
+
+    
+}
+.preview-line img {
+width:127px;
+height:121px;    
+}
+/* ---------INFO-BLOCK-------------- */
+
+.info-block {
+ /*  background-color:rosybrown; */
+  /* display:flex; */
+  max-width:570px;
+padding-top:80px;
+ margin-left:10%;
+}
+.info-title-block {
+display:flex;
+justify-content:space-between;
+ align-items:center;
+ margin-bottom:20px; 
+}
+.title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 37px;
+  
+}
+.info-title-block img {
+width:21px;
+  height:17px;
+  margin-right:10px;
+}
+.info-block-price {
+ font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+ margin-bottom:51px;
+}
+.tab-block {
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+margin-bottom:41px; 
+}
+.tab-block li {
+display:inline-block;
+margin-right:40px; 
+}
+.tab-block li a {
+color:black;
+ 
+}
+.technical-description {
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 23px;
+margin-bottom:54px; 
+}
+.card-button {
+width: 185px;
+height: 60px;
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+border:none;
+ background-color:#31302C;
+ color:white;
+ cursor:pointer;
+}
+
+/* -----FOOTER-SLIDER-BLOCK------------- */
+.watch-slider-title{
+margin:78px 0 43px 0;
+font-family: 'Playfair Display',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+
+color: #1B1A17; 
+}
+.footer-slider-block {
+ /* display:flex; */
+}
+.footer-slider-block .container {
+display:flex;
+justify-content:center; 
+}
+.footer-slider-card {
+}
+.title-price-block {
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.05em;
+}
+.title-price-block p {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+ 
+}
