@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/catalog.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="slick-1.8.1/slick/slick-theme.css"
+    />
+
+    <title>Rado</title>
+  </head>
+  <body>
+    <!-- ---------------HEADER----------------------------   -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a class="logo-link" href="index.html"
+            ><img src="icons/logo.svg" width="103" height="26" alt="logo."
+          /></a>
+        </div>
+        <nav class="header-navigation">
+          <ul class="navigation-menu">
+            <li class="navigation-item">
+              <a class="navigation-item-a" href="catalog.html">Каталог</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-item-a" href="#">Акции</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-item-a" href="#">Доставка</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-item-a" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="icons-header">
+          <ul>
+            <li class="header-icons-item">
+              <img class="header-icon" src="icons/Vector.svg" alt="search." />
+            </li>
+            <li class="header-icons-item">
+              <img
+                class="header-icon"
+                src="icons/Vector(1).svg"
+                alt="heart"
+                class="header-icons"
+              />
+            </li>
+            <li class="header-icons-item">
+              <img class="header-icon" src="icons/Vector(2).svg" alt="busket buy."
+              class="header-icons"/>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- ---------------BREADCRUMBS------------------------------- -->
+    <div class="container">
+      <div class="breadcrumbs">
+        <ul class="breadcrumbs-list">
+          <li><a class="breadcrumb-link" href="#">Главная</a></li>
+          <li><a class="breadcrumb-link" href="#">Каталог</a></li>
+          <li><a class="breadcrumb-link" href="#">Мужские часы</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- -------------------SECTION1---CATALOG------------------------ -->
+
+    <section class="catalog">
+      <div class="container">
+        <!-- -------------------BREADCRUMBS---------------------- -->
+        <div class="catalog-title-block">
+          <h2 class="catalog-title">Мужские часы</h2>
+
+          <!-- ========CATALOG--SELECT------------------------------------- -->
+          <div class="catalog-title-select-wrapper">
+          <span>Сортировать по: </span>  
+          <select name="catalog-title-select" id="catalog-title-select">
+            <option value="value1">популярности</option>
+            <option value="value2">цена по возрастанию</option>
+            <option value="value3">цена по уменшению</option>
+          </select>
+          </div>
+        </div>
+        <!-- -------------------CATALOG---FILTERS_----------------------------- -->
+        <div class="catalog-inner">
+          <div class="catalog-filters">
+           
+            <div class="cost-input-block">
+              <span>Стоимость</span>
+              <img src="icons/plus.png" alt="icon plus">
+            </div>
+            <input class="cost-range" type="range">
+         <!-- ------------BRAND-BLOCK------------------------------ -->
+            <div class="brand-checkbox-block">
+          <span>Бренд</span>
+          <img src="icons/plus.png" alt="icon plus">
+
+         </div>
+         <!-- -------------CHECKBOX BLOCK------------------------------------ -->
+         <div class="checkbox-block">
+           <div><input type="checkbox" checked="checked">Techne</input></div>
+           <div><input type="checkbox" checked="checked">Rado</input></div>
+           <div><input type="checkbox" checked="checked">Bvlgari</input></div>
+           <div><input type="checkbox">Tissot</input></div>
+           <div><input type="checkbox">Omega</input></div>
+           <div><input type="checkbox">Montblanc</input></div>
+          </div>
+
+          <!-- ----------MECHANIZM-BLOCK-------------------------- -->
+          <div class="mechanizm-block">
+            <span>Механизм</span>
+            <img src="icons/plus.png" alt="icon plus">
+  
+           </div>
+          <!-- --------------MATERIAL-BLOCK---------------------------- -->
+          <div class="material-block">
+            <span>Материал</span>
+            <img src="icons/plus.png" alt="icon plus">
+  
+           </div>
+          <!-- ---------------COLOR-BLOCK--------------------------------- -->
+          <div class="color-block">
+            <span>Цвет</span>
+            <img src="icons/plus.png" alt="icon plus">
+  
+           </div>
+      
+         <!-- ---------RESET-BUTTON------------  -->
+         <button class="reset-button">сбросить фильтр</button>
+
+
+        </div>
+          <!-- --------------END-CATALOG-FILTERS----------------------- -->
+          <!-- ---------------------CATALOG-ITEMS----------------------------------- -->
+          <div class="catalog-items">
+            <!-- ---------------WATCH--CARDS------------------------------------------- -->
+            <div class="card">
+              <div class="card-title-block">
+                <p class="card-title">TECHNE</p>
+                <p class="cart-price">12 700 P</p>
+              </div>
+              <img src="images/catalog images/watch_1.jpg" alt="watch-1." />
+            </div>
+
+            <div class="card">
+              <div class="card-title-block">
+                <p class="card-title">TECHNE</p>
+                <p class="cart-price">12 700 P</p>
+              </div>
+              <img src="images/catalog images/watch_2.jpg" alt="watch-2." />
+            </div>
+
+            <div class="card">
+              <div class="card-title-block">
+                <p class="card-title">TECHNE</p>
+                <p class="cart-price">15 700 P</p>
+              </div>
+              <img src="images/catalog images/watch_3.jpg" alt="watch-3." />
+            </div>
+
+            <div class="card">
+              <div class="card-title-block">
+                <p class="card-title">TECHNE</p>
+                <p class="cart-price">15 700 P</p>
+              </div>
+              <img src="images/catalog images/watch_4.jpg" alt="watch-4." />
+            </div>
+
+            <div class="card">
+              <div class="card-title-block">
+                <p class="card-title">TECHNE</p>
+                <p class="cart-price">12 700 P</p>
+              </div>
+              <img src="images/catalog images/watch_5.jpg" alt="watch-5." />
+            </div>
+
+            <div class="card promo">
+              <p class="card-title">- 20 %</p>
+              <p class="cart-price">НА ВТОРУЮ ПОЗИЦИЮ В ЧЕКЕ</p>
+            </div>
+
+            <div class="card">
+              <div class="card-title-block">
+                <p class="card-title">TECHNE</p>
+                <p class="cart-price">72 700 P</p>
+              </div>
+              <img src="images/catalog images/watch_9.jpg" alt="watch-9." />
+            </div>
+
+            <div class="card">
+              <div class="card-title-block">
+                <p class="card-title">TECHNE</p>
+                <p class="cart-price">22 700 P</p>
+              </div>
+              <img src="images/catalog images/watches_10.jpg" alt="watch-10." />
+            </div>
+
+            <div class="card">
+              <div class="card-title-block">
+                <p class="card-title">TECHNE</p>
+                <p class="cart-price">72 700 P</p>
+              </div>
+              <img src="images/catalog images/watch_11.jpg" alt="watch-11." />
+            </div>
+          </div>
+        </div>
+        <!-- ------------------CATALOG----PAGINATION---------------------- -->
+
+        <div class="catalog-pagination">
+          <div class="paginator">
+            <a class="prev disabled" href="#prev">Назад</a>
+            <a class="current" href="#1">1</a>
+            <a href="#3">2</a>
+            <span>&hellip;</span>
+            <a href="#3">3</a>
+            <a class="next" href="#next">Вперёд</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------STRAPS--BLOCK-------------------------------------------- -->
+    <div class="container">
+      <div class="straps-block">
+        <h2 class="straps-block-title">Ремешки</h2>
+        <a class="straps-block-link" href="#">Смотреть все</a>
+      </div>
+     
+      <!-- ----------------STRAPS-CARDS--BLOCK------------------------------------------- -->
+    <div class="straps-cards-block">
+     <div class="straps-item">
+      
+      <div class="strap-card-name-block">
+      <h3 class="straps-item-title">GEORG JENSEN</h3>
+      <p class="straps-item-price">6 500</p>
+      </div>
+     <img src="images/catalog images/band_1.jpg" alt="">
+    </div>
+     
+    <div class="straps-item">
+      <div class="strap-card-name-block">
+      <h3 class="straps-item-title">NATO</h3>
+      <p class="straps-item-price">3 200</p>
+      </div>
+      <img src="images/catalog images/band_2.jpg" alt="">
+    </div>
+     
+  
+
+     <div class="straps-item">
+     <div class="strap-card-name-block">
+
+      <h3 class="straps-item-title">SPARK</h3>
+      <p class="straps-item-price">5 400</p>
+     </div>
+     <img src="images/catalog images/band_3.jpg" alt="">
+    </div>
+     
+  <!-- -----------------NEXT-3-SLIDES----------------------- -->
+  <div class="straps-item">
+      
+    <div class="strap-card-name-block">
+    <h3 class="straps-item-title">GEORG JENSEN</h3>
+    <p class="straps-item-price">6 500</p>
+    </div>
+   <img src="images/catalog images/band_1.jpg" alt="">
+  </div>
+   
+  <div class="straps-item">
+    <div class="strap-card-name-block">
+    <h3 class="straps-item-title">NATO</h3>
+    <p class="straps-item-price">3 200</p>
+    </div>
+    <img src="images/catalog images/band_2.jpg" alt="">
+  </div>
+   
+
+
+   <div class="straps-item">
+   <div class="strap-card-name-block">
+
+    <h3 class="straps-item-title">SPARK</h3>
+    <p class="straps-item-price">5 400</p>
+   </div>
+   <img src="images/catalog images/band_3.jpg" alt="">
+  </div>
+
+<!-- --------------------END-STRIPES-BLOCK------------------------------- -->
+
+  </div>
+
+    </div>
+    
+    <!-- ---------------FOOTER-------------------------------------------- -->
+
+    <footer>
+      <div class="container">
+        <div class="footer-cards">
+          <div class="footer-logo">
+            <a class="logo-link" href="#"
+              ><img
+                src="images/footer-Ellipse.svg"
+                width="103"
+                height="26"
+                alt="logo"
+              />CONQUEST</a
+            >
+          </div>
+
+          <div class="footer-nav-item">
+            <h3>о компании</h3>
+            <p><a href="#">Наши магазины</a></p>
+            <p><a href="#">Вакансии</a></p>
+            <p><a href="#">Сертификаты</a></p>
+            <p><a href="#">Отзывы</a></p>
+          </div>
+
+          <div class="footer-nav-item">
+            <h3>покупателям</h3>
+            <p><a href="#">Каталог товаров</a></p>
+            <p><a href="#">Как заказать?</a></p>
+            <p><a href="#">FAQ</a></p>
+            <p><a href="#">Корпоративным клиентам</a></p>
+          </div>
+          <div class="footer-nav-item">
+            <h3>оплата и доставка</h3>
+            <p><a href="#">Способы оплаты</a></p>
+            <p><a href="#">Время доставки</a></p>
+            <p><a href="#">Гарантии и ремонт</a></p>
+            <p><a href="#">Возврат и компенсация</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    <script
+      type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+     
+    
+    <script
+      type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      
+    
+    <script
+      type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+      
+    
+    <script src="js/slider.js"></script>
+    <script src="js/cost-range.js"></script>
+  
+  
+  </body>
+</html>
