@@ -37,6 +37,7 @@ header {
 
 .navigation-menu {
     display: flex;
+    list-style:none;
 }
 
 .navigation-item:not(:last-child) {
