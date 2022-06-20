@@ -64,6 +64,8 @@ header {
     display: flex;
     /*     width:99px; */
     /*    margin-left:278px;  */
+        list-style:none;
+
 }
 
 .header-icons-item:not(:last-child) {
